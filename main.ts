@@ -1,7 +1,7 @@
 function LED_show () {
     for (let y = 0; y <= 4; y++) {
         for (let x = 0; x <= 4; x++) {
-            led.plot(x, y)
+            led.plot(4 - x, 4 - y)
             basic.pause(500)
         }
     }
